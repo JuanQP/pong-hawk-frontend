@@ -19,4 +19,5 @@ type Game = {
   processed_video: string | null;
   heatmap: string | null;
   status: VideoStatus;
+  strategy: "Izquierda" | "Derecha" | null;
 }

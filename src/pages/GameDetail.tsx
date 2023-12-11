@@ -48,6 +48,10 @@ export function GameDetail() {
           <Image src={game.heatmap} width="100%" />
 
           <Title c="white">Resumen</Title>
+          <Text c="white">
+            En base al video analizado sugerimos devolución hacia:
+            <Text span fw="bold"> {game.strategy}</Text>
+          </Text>
         </Stack>
       </Container>
     </Stack>
